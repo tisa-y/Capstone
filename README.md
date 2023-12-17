@@ -35,9 +35,9 @@ Children is categorical and charges is fairly normally distributed
 <li>log transforming the continuous variables has altered the qq plot very little compared to the added dummies qq plot</li>
 <img src="https://github.com/xSTILETTOx/Capstone/blob/main/logQQ.png" alt="Alt text" style="max-width: 100%;">
 
-<br><li>MSE and R-Squared</li><br>
+<br><h3>MSE and R-Squared</h3><br>
 <li>As you can see the Mean squared error and R-squared improved significantly between the raw and dummied data.</li> 
 <li>It had a tiny affect between the dummied data and log transformed data</li>
 <li>The train MSE and test MSE are very close in the log transformed data. The model fits well</li>
 <li>The R2 = 0.88 which would imply that 88% of the target variance can be explained by the model features. This is significant</li>
-<img src="https://github.com/xSTILETTOx/Capstone/blob/main/MSEandR2.png" alt="Alt text" style="max-width: 50%;">
+<img src="image-6.png" alt="Alt text"  style="object-fit:contain; width:200px; height:300px;"/>
