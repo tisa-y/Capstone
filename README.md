@@ -40,4 +40,4 @@ Children is categorical and charges is fairly normally distributed
 <li>It had a tiny affect between the dummied data and log transformed data</li>
 <li>The train MSE and test MSE are very close in the log transformed data. The model fits well</li>
 <li>The R2 = 0.88 which would imply that 88% of the target variance can be explained by the model features. This is significant</li>
-<img src="https://github.com/xSTILETTOx/Capstone/blob/main/MSEandR2.png" alt="Alt text" style="max-width: 100%;">
+<img src="https://github.com/xSTILETTOx/Capstone/blob/main/MSEandR2.png" alt="Alt text" style="max-width: 50%;">
