@@ -14,7 +14,7 @@ This information could be used to predict the cost of health insurance for an ad
 
 ## Data Understanding
 
-The data used in this analysis is from Kaggle <a href=https://www.kaggle.com/datasets/sridharstreaks/insurance-data-for-machine-learning/data> <br>The dataset was created using a script that generated a million records of randomly sampled data points, ensuring that the data represented the population of insured individuals in the USA. 
+The data used in this analysis is from <a href=https://www.kaggle.com/datasets/sridharstreaks/insurance-data-for-machine-learning/data> Kaggle.</a><br>The dataset was created using a script that generated a million records of randomly sampled data points, ensuring that the data represented the population of insured individuals in the USA. 
 
 ## Data Modeling
 
@@ -36,9 +36,23 @@ Children is categorical and charges is fairly normally distributed
 <img src="https://github.com/xSTILETTOx/Capstone/blob/main/logQQ.png" alt="Alt text" style="max-width: 100%;">
 
 <br><h3>MSE and R-Squared</h3><br>
-<li>As you can see the Mean squared error and R-squared improved significantly between the raw and dummied data.</li> 
+<img src="https://github.com/xSTILETTOx/Capstone/blob/main/MSEandR2.png" alt="Alt text" style="max-width: 50%;">
+
+## Evaluation
+
+<li>The Mean squared error and R-squared improved significantly between the raw and dummied data.</li> 
 <li>It had a tiny affect between the dummied data and log transformed data</li>
 <li>The train MSE and test MSE are very close in the log transformed data. The model fits well</li>
 <li>The R2 = 0.88 which would imply that 88% of the target variance can be explained by the model features. This is significant</li>
-<img src="https://github.com/xSTILETTOx/Capstone/blob/main/MSEandR2.png" alt="Alt text" style="max-width: 50%;">
 
+## Conclusions
+
+<li> The accuracy of the models did not increase much after log transformation. </li>
+<li> A final R2 or 0.88 is great to move on with the predictive cost calculator</li>
+<li> With more time, I would have looked at the outliers and a GLS model for the heteroscedasticity</li>
+
+## For More Information
+See the full analysis in the <a href=https://github.com/xSTILETTOx/Capstone/blob/main/Insurance_prediction_final.ipynb>Jupyter Notebook</a> or review this <a href>presentation.</a>
+
+For additional info, contact Tisa Yip at 
+<a href="mailto:clawspawsandjaws@gmail.com"> clawspawsandjaws@gmail.com </a>
