@@ -52,7 +52,7 @@ Children is categorical and charges is fairly normally distributed
 <li> With more time, I would have looked at the outliers and a GLS model for the heteroscedasticity</li>
 
 ## For More Information
-See the full analysis in the <a href=https://github.com/xSTILETTOx/Capstone/blob/main/Insurance_prediction_final.ipynb>Jupyter Notebook</a> or review this <a href>presentation.</a>
+See the full analysis in the <a href=https://github.com/xSTILETTOx/Capstone/blob/main/Insurance_prediction_final.ipynb>Jupyter Notebook</a> or review this <a href=https://github.com/xSTILETTOx/Capstone/blob/main/Capstone_presentation.pdf>presentation.</a>
 
 For additional info, contact Tisa Yip at 
 <a href="mailto:clawspawsandjaws@gmail.com"> clawspawsandjaws@gmail.com </a>
